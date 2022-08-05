@@ -10,6 +10,7 @@ import { FromEventComponent } from './observable/from-event/from-event.component
 import { IntervalComponent } from './observable/interval/interval.component';
 import { OfAndFromComponent } from './observable/of-and-from/of-and-from.component';
 import { ToArrayComponent } from './observable/to-array/to-array.component';
+import { CustomObsComponent } from './observable/custom-obs/custom-obs.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ToArrayComponent } from './observable/to-array/to-array.component';
     FromEventComponent,
     IntervalComponent,
     OfAndFromComponent,
-    ToArrayComponent
+    ToArrayComponent,
+    CustomObsComponent
   ],
   imports: [
     BrowserModule,
