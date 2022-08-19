@@ -11,6 +11,11 @@ import { IntervalComponent } from './observable/interval/interval.component';
 import { OfAndFromComponent } from './observable/of-and-from/of-and-from.component';
 import { ToArrayComponent } from './observable/to-array/to-array.component';
 import { CustomObsComponent } from './observable/custom-obs/custom-obs.component';
+import { MapComponent } from './observable/map/map.component';
+import { FilterComponent } from './observable/filter/filter.component';
+import { TakeOperatorComponent } from './observable/take-operator/take-operator.component';
+import { RetryComponent } from './observable/retry/retry.component';
+import { DebounceTimeComponent } from './observable/debounce-time/debounce-time.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +27,12 @@ import { CustomObsComponent } from './observable/custom-obs/custom-obs.component
     IntervalComponent,
     OfAndFromComponent,
     ToArrayComponent,
-    CustomObsComponent
+    CustomObsComponent,
+    MapComponent,
+    FilterComponent,
+    TakeOperatorComponent,
+    RetryComponent,
+    DebounceTimeComponent
   ],
   imports: [
     BrowserModule,

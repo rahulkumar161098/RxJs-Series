@@ -1,0 +1,49 @@
+<h4>Filter</h4>
+
+<strong>EX -01 </strong> => <i>Filter by name length</i>
+<hr>
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+  </tr>
+  <tr *ngFor="let data of data">
+    <td>{{data.id}}</td>
+    <td>{{data.name}}</td>
+  </tr>
+</table>
+<br>
+<br>
+
+
+<strong>EX -02 </strong> => <i> Filter by Gender</i>
+<hr>
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Gender</th>
+  </tr>
+  <tr *ngFor="let data of data2">
+    <td>{{data.id}}</td>
+    <td>{{data.name}}</td>
+    <td>{{data.gender}}</td>
+  </tr>
+</table>
+<br><br>
+
+<strong>EX -02 </strong> => <i> Filter by Gender</i>
+<hr>
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Gender</th>
+  </tr>
+  <tr *ngFor="let data of data3">
+    <td>{{data.id}}</td>
+    <td>{{data.name}}</td>
+    <td>{{data.gender}}</td>
+  </tr>
+</table>
+<!-- <p>{{2>1?'yes':'No'}}</p> -->
