@@ -13,7 +13,7 @@ export class DebounceTimeComponent implements OnInit, AfterViewInit{
   constructor() { }
 
   ngAfterViewInit(): void {
-    const searchItem= fromEvent<any>(this.search_item.nativeElement, 'keyup').pipe(
+    const searchItem= fromEvent<any>(this.search_item.nativeElement, 'keyup' ).pipe(
       map(event=> event.target.value),
       debounceTime(500)
     )

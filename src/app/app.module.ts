@@ -16,6 +16,13 @@ import { FilterComponent } from './observable/filter/filter.component';
 import { TakeOperatorComponent } from './observable/take-operator/take-operator.component';
 import { RetryComponent } from './observable/retry/retry.component';
 import { DebounceTimeComponent } from './observable/debounce-time/debounce-time.component';
+import { SubjectComponent } from './observable/subject/subject.component';
+import { ConcatComponent } from './observable/concat/concat.component';
+import { MergeComponent } from './observable/merge/merge.component';
+import { MergeMapConcatMapComponent } from './observable/merge-map-concat-map/merge-map-concat-map.component';
+import { SwitchMapExComponent } from './observable/switch-map-ex/switch-map-ex.component';
+import { FormsModule } from '@angular/forms'
+
 
 @NgModule({
   declarations: [
@@ -32,11 +39,17 @@ import { DebounceTimeComponent } from './observable/debounce-time/debounce-time.
     FilterComponent,
     TakeOperatorComponent,
     RetryComponent,
-    DebounceTimeComponent
+    DebounceTimeComponent,
+    SubjectComponent,
+    ConcatComponent,
+    MergeComponent,
+    MergeMapConcatMapComponent,
+    SwitchMapExComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
